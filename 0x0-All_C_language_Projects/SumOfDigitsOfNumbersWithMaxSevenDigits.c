@@ -1,3 +1,8 @@
+	/*This program takes in a number and sums the individual digits, number must not exceed 7 digits.
+	 * I will improve on the program later to take more than 7 digits.
+	 * If one inputs 1234567, it outputs 1+2+3+4+5+6+7 = 28.
+	 */
+
 #include<stdio.h>
 int main()
 {
