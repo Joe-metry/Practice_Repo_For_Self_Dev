@@ -1,4 +1,4 @@
-	/*This program takes in a number and sums the individual digits, number must not exceed 7 digits.
+/*This program takes in a number and sums the individual digits, number must not exceed 7 digits.
 	 * I will improve on the program later to take more than 7 digits.
 	 * If one inputs 1234567, it outputs 1+2+3+4+5+6+7 = 28.
 	 */
@@ -7,7 +7,7 @@
 int main()
 {
   int D1,D2,D3,D4,D5,D6, sum=0;
-    printf("\nEnter 5 Digit No : ");
+    printf("\nEnter 1-7 Digit No : ");
     scanf("%d",&D1);//1234567
 
         sum+=D1%10; //7 
