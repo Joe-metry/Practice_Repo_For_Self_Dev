@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
  }
  // let's make our own array of strings
  char *states[] = {
- "California", "Oregon",
+ "California", "Oregon'\0'",
  "Washington", "Texas"
  };
  int num_states = 4;
