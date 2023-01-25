@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
   scanf("%d", &num);
   
 
-  for(i = 1; i<=999999999999999999; i++)
+  for(i = 1; i<=20; i++)
     {
       result = num*i;
       printf("%d x %d = %d\n", num, i, result);
