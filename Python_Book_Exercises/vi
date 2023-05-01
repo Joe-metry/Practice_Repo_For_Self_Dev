@@ -1,0 +1,10 @@
+dict = {
+ 0: {
+    "first_name": "ortiz",
+  },
+  1: {
+    "last_name": "Joel"
+  },
+}
+
+print(dict[0]["name"])
